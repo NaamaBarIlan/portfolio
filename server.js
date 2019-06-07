@@ -1,7 +1,15 @@
 'use strict';
 
+// require is a function that becomes available when we use node.js
+// It takes an argument, that's a string, then we're chaining on to that a .config().
+// require looks for other code packages, in this case 'dotenv' and then runs a config on it. 
+
 require('dotenv').config();
 const express = require('express');
+
+// When we required express we got back a function, when we invoke express we get app. 
+// express is the web server and app is our specific web server
+
 const app = express();
 
 const PORT = process.env.PORT || 3000;
