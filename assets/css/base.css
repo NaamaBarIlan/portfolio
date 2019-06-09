@@ -88,7 +88,7 @@ input, select, textarea {
 
 	body {
 		background: #fff;
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Cabin', sans-serif;
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
@@ -107,7 +107,7 @@ input, select, textarea {
 		}
 
 	input, textarea, select {
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Cabin', sans-serif;
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
@@ -135,11 +135,11 @@ input, select, textarea {
 	}
 
 		h2.alt {
-			color: #888;
+			color: #41484c;
 		}
 
 			h2.alt strong {
-				color: #666;
+				color: #41484c;
 			}
 
 	h3 {
@@ -179,7 +179,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #E27689;
+			color: #8EA8BF;
 			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 
@@ -231,22 +231,22 @@ input, select, textarea {
         background-image: url("images/overlay.png");
     }
 
-        #main > section.dark {
+         {
             color: #ddd;
             color: rgba(255, 255, 255, 0.75);
         }
 
             #main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
-                color: inherit;
+                /* color: inherit; */
             }
 
             #main > section.dark strong {
-                color: #fff;
+                color: #41484c;
                 border-color: inherit;
             }
 
             #main > section.dark a {
-                color: #fff;
+                color: #41484c;
                 border-color: inherit;
             }
 
@@ -261,19 +261,19 @@ input, select, textarea {
         }
 
         #main > section.one {
-            background-color: #81918E;
-            background-image: url("../../images/banner.jpg");
+            /* background-color: #81918E; */
+            background-image: url("../../images/white-wall.jpg");
         }
 
         #main > section.two {
-            background-color: #f5fafa;
+            background-color: white;
         }
 
         #main > section.three {
-            background-color: #ecf1f1;
+            background-color: white;
         }
 
         #main > section.four {
-            background-color: #e8edec;
+            background-color: white;
         }
 
